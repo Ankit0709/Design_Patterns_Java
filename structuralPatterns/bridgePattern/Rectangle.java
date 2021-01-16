@@ -9,7 +9,7 @@ public class Rectangle implements Shape{
         this.coloredShape = coloredShape;
     }
 
-    @Overrideammi
+    @Override
     public void draw(Graphics graphics) {
         graphics.fillRect(5,10,50,100);
     }
